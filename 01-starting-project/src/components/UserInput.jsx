@@ -5,7 +5,7 @@ export default function UserInput({onChange, userInput}) {
         <div className="input-group">
             <p>
                 <label>Initial Investment</label>
-                <input type="number" value={userInput.intialInvestment} required onChange={(event) => onChange('intialInvestment', event.target.value)}/>
+                <input type="number" value={userInput.initialInvestment} required onChange={(event) => onChange('initialInvestment', event.target.value)}/>
             </p>
             <p>
                 <label>Annual Investment</label>
